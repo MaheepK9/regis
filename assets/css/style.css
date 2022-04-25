@@ -1,13 +1,4 @@
-/**
-* Template Name: Ninestars - v4.7.0
-* Template URL: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #212529;
@@ -27,9 +18,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -57,34 +45,29 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+
 #header {
   height: 72px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #fff;
+  background: rgb(225, 98, 43);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #header .logo h1 {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   line-height: 1;
   font-weight: 400;
   letter-spacing: 2px;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #7a6960;
+  color: #ffffff;
   text-decoration: none;
 }
 #header .logo img {
@@ -97,12 +80,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-top: 72px;
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+
 .navbar {
   padding: 0;
 }
@@ -121,8 +99,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
-  color: #4e4039;
+  font-size: 20px;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -132,10 +110,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #eb5d1e;
+  color: #000000;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #eb5d1e;
+  background: #f38657;
   color: #fff;
   padding: 10px 25px;
   margin-left: 30px;
@@ -171,7 +149,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #eb5d1e;
+  color: #e8642b;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -255,7 +233,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #7a6960;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #eb5d1e;
+  color: #e1622c;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -287,9 +265,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   display: block;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   height: 70vh;
@@ -384,9 +360,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     transform: translateY(-10px);
   }
 }
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -427,9 +400,7 @@ section {
   left: calc(50% - 30px);
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
+
 .breadcrumbs {
   padding: 15px 0;
   background-color: #fef5f1;
@@ -468,9 +439,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+
 .about h3 {
   font-weight: 700;
   font-size: 34px;
@@ -502,18 +471,16 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
 .services .icon-box {
   padding: 30px;
   position: relative;
+  
   overflow: hidden;
-  margin: 0 0 40px 0;
+  
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
-  border-radius: 15px;
+  border-radius: 25px;
   text-align: center;
   border-bottom: 3px solid #fff;
 }
@@ -541,9 +508,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -658,9 +622,7 @@ section {
   bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -712,9 +674,7 @@ section {
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# F.A.Q
---------------------------------------------------------------*/
+
 .faq {
   padding: 60px 0;
 }
@@ -768,9 +728,7 @@ section {
   transition: 0.6s;
 }
 
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
+
 .team {
   background: #fff;
   padding: 60px 0;
@@ -847,9 +805,7 @@ section {
   transition: left ease-in-out 0.3s;
 }
 
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
+
 .clients .clients-slider .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
@@ -872,9 +828,7 @@ section {
   background-color: #eb5d1e;
 }
 
-/*--------------------------------------------------------------
-# Contact Us
---------------------------------------------------------------*/
+
 .contact .info {
   border-top: 3px solid #eb5d1e;
   border-bottom: 3px solid #eb5d1e;
@@ -1024,9 +978,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+
 #footer {
   background: #fff;
   padding: 0 0 30px 0;
