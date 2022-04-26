@@ -55,7 +55,7 @@ app.get("/",(req,res)=>{
     res.set({
         "Allow-access-Allow-Origin": '*'
     })
-    return res.redirect('index.html');
+    return res.redirect('reg.html');
 }).listen(3000);
 
 
